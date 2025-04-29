@@ -1,0 +1,3 @@
+SELECT * FROM users WHERE age BETWEEN 23 AND 25;
+
+SELECT name, surname, age FROM users WHERE age BETWEEN 23 AND 25;
