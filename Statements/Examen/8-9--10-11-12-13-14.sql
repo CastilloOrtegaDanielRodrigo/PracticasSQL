@@ -5,12 +5,7 @@ Propósito: Encontrar el valor máximo del campo promedio.
 Alias: Promedio_Alto
 */
 
--- 2. Edad mínima de los estudiantes
-SELECT MIN(edad) FROM estudiantes;
-/*
-Propósito: Encontrar la edad mínima entre los estudiantes.
-Nota: Esta consulta no filtra valores NULL.
-*/
+
 
 -- 1. Total de estudiantes en la base de datos
 SELECT COUNT(*) FROM estudiantes;
