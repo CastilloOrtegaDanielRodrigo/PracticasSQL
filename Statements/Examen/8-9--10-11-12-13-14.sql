@@ -5,8 +5,6 @@ Propósito: Encontrar el valor máximo del campo promedio.
 Alias: Promedio_Alto
 */
 
-
-
 -- 1. Total de estudiantes en la base de datos
 SELECT COUNT(*) FROM estudiantes;
 /*

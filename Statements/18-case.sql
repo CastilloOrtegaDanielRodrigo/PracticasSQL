@@ -1,0 +1,27 @@
+SELECT *, 
+CASE
+	WHEN age >= 18 THEN 'Es mayor de edad'
+    ELSE 'Es menor de edad'
+END AS 	RESULTADOS
+FROM users;
+
+SELECT *, 
+CASE
+	WHEN age >= 25 THEN true
+    ELSE false
+END AS 	'¿TIENE LA EDAD REQUERIDA?'
+FROM users;
+
+SELECT *, 
+CASE
+	WHEN email IS NOT NULL THEN true
+    ELSE false
+END AS 	'¿TIENE CORREO?'
+FROM users;
+
+SELECT *, 
+  CASE
+    WHEN email IS NOT NULL THEN 'TIENE CORREO'
+    ELSE 'NO TIENE CORREO'
+  END AS '¿TIENE CORREO ELECTRÓNICO?'
+FROM users;

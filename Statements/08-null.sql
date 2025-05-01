@@ -12,3 +12,6 @@ SELECT * FROM users WHERE email IS NOT NULL AND age = 22;
 
 -- Muestra solo el ID, nombre, apellido y correo de usuarios que tienen email y edad 22
 SELECT user_id, name, surname, email FROM users WHERE email IS NOT NULL AND age = 22;
+
+
+SELECT name , surname , IFNULL(email, 'NO TIENE CORREO') AS correo FROM users
